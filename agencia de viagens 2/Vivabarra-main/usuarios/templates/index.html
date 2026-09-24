@@ -1,0 +1,58 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>VivaBarra Turismo</title>
+  <link rel="stylesheet" href="{% static 'vivabarra/css/style.css' %}" />
+</head>
+
+<body>
+  <header>
+    <img src="{% static 'imagens/logotipo2.png' %}" class="logotipo">
+    <h1><a href="/">VivaBarra Turismo</a></h1>
+    <nav>
+      <a href="hoteis">Hotéis</a>
+      <a href="restaurantes">Restaurantes</a>
+      <a href="turismo">Pontos turísticos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Página inicial</h2>
+
+    <hr>
+    
+    <section>
+      <h2>Informações da agência</h2>
+      <p>
+        A VivaBarra Turismo é uma empresa fictícia criada em 2026 por Paulo, Breno e Douglas, três amigos apaixonados
+        pela cultura, praias e história de Salvador.
+        O objetivo da empresa é proporcionar experiências inesquecíveis
+        para turistas que desejam conhecer o melhor da Bahia com conforto, segurança e atendimento personalizado.
+      </p>
+    </section>
+
+    <section>
+      <h2>Sobre o bairro</h2>
+      <p>
+        O bairro da Barra é a porta de entrada para a magia de Salvador. Famoso por abrigar a Baía de Todos-os-Santos de um lado e o Oceano Atlântico do outro, a Barra combina a vivacidade do litoral baiano com um acervo arquitetônico fascinante. Seja para relaxar em águas cristalinas, explorar fortificações do século XVII ou saborear a alta culinária local, este é o destino perfeito para a sua estadia na capital baiana.
+      </p>
+    </section>
+
+    <section>
+      <h2>Destaques da nossa agência</h2>
+      <ul>
+        <li>Roteiros personalizados para toda a família</li>
+        <li>Guias locais credenciados e especialistas em história baiana</li>
+        <li>Suporte completo para reserva de passeios e hospedagem</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 - VivaBarra Turismo | Todos os direitos reservados</p>
+  </footer>
+</body>
+
+</html>

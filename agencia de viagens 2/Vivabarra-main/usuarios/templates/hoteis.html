@@ -1,0 +1,94 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hóteis - VivaBarra Turismo</title>
+  <link rel="stylesheet" href="{% static 'vivabarra/css/style.css' %}" />
+</head>
+
+<body>
+  <header> 
+    <img src="{% static 'imagens/logotipo2.png' %}" class="logotipo">
+    <h1><a href="/">VivaBarra Turismo</a></h1>
+    <nav>
+      <a href="hoteis">Hotéis</a>
+      <a href="restaurantes">Restaurantes</a>
+      <a href="turismo">Pontos turísticos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Hóteis na Barra</h2>
+
+    <hr>
+
+    <section>
+      <img src="{% static 'imagens/grandehotel1.png' %}" class="fachada">
+      <h3>Grande Hotel da Barra (Qualidade: ★★★★☆)</h3>
+      <ul>
+        <li>
+          Sobre: Estrutura reformada com decoração contemporânea, 36 quartos com varanda e vista para o oceano e serviço de excelência com café da manhã elogiadíssimo.
+        </li>
+        <li>
+          Restaurante Legal por Perto: Restaurante próprio à beira da piscina (culinária regional e internacional) + Restaurante Barravento a poucos passos.
+        </li>
+        <li>
+          Ponto Turístico Próximo: Praia do Farol da Barra (1,2 km), Morro do Cristo (1,6 km).
+        </li>
+      </ul>
+
+      <p class="custo">
+          Custo aproximado: ~R$ 448/noite
+      </p>
+    </section>
+
+    <section>
+      <img src="{% static 'imagens/montepascoal1.png' %}" class="fachada">
+      <h3>Monte Pascoal Praia Hotel  (Qualidade: ★★★★☆)</h3>
+      <ul>
+        <li>
+          Sobre: Estrutura moderna e renovada, todos os quartos com varanda e vista panorâmica para o oceano e serviço de excelência com nota 9,1/10.
+        </li>
+        <li>
+          Restaurante Legal por Perto: Restaurante próprio no hotel (café da manhã com tapioca na hora).
+        </li>
+        <li>
+          Ponto Turístico Próximo: Farol da Barra (em frente), Praia do Farol da Barra (acesso direto).
+        </li>
+      </ul>
+
+      <p class="custo">
+        Custo aproximado: ~R$ 750–813/noite
+      </p>
+    </section>
+
+    <section>
+      <img src="{% static 'imagens/thehotel1.png' %}" class="fachada">
+      <h3>The Hotel (Qualidade: ★★★☆☆)</h3>
+      <ul>
+        <li>
+          Sobre: Estrutura contemporânea e compacta, localização estratégica a 400 m da praia e atendimento carinhoso com ótimo custo-benefício.
+        </li>
+        <li>
+          Restaurante Legal por Perto: 138 The Bar (restaurante do hotel, culinária brasileira) + vários restaurantes na Av. Sete de Setembro.
+        </li>
+        <li>
+          Ponto Turístico Próximo: Forte Santo Antônio da Barra (10 min a pé), Museu Náutico da Bahia (1,1 km).
+        </li>
+      </ul>
+
+      <p class="custo">
+          Custo aproximado: ~R$ 165–243/noite
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - VivaBarra Turismo | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>

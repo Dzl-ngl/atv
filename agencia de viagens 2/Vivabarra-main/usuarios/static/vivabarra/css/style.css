@@ -1,0 +1,91 @@
+body {
+  background-color: #f8fafc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1e293b;
+  padding: 15px 40px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.logotipo{
+  height: 70px;
+  width: auto;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a {
+  color: rgb(89, 175, 209);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 2px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+main section ul li {
+  padding: 10px ;
+}
+
+footer {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.custo {
+  background-color: rgb(89, 175, 209);
+  padding: 20px;
+  border: 3px solid rgb(25, 138, 182);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.fachada {
+  width: 100%;       
+  height: 300px;     
+  display: flex;     
+  justify-content: center; 
+  align-items: center;      
+  overflow: hidden;  
+  background-color: #f0f0f0;
+  object-fit: cover; 
+}
+
+
+
+
